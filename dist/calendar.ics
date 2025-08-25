@@ -1,0 +1,457 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Custom ICS calendar//Amsterdam Afval//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+SUMMARY:Afvalkalender voor de Gemeente Amsterdam en Stadsgebied Weesp
+X-WR-CALNAME:Afvalkalender
+X-WR-TIMEZONE:Europe/Amsterdam
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:GMT+2
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:GMT+1
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:32e15f6648e147468a5fbe2128eb1ebb@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20250825
+DTEND;TZID=Europe/Amsterdam:20250826
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:50f2899b0d3d4d61a1baa66b1bbfa18f@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20250826
+DTEND;TZID=Europe/Amsterdam:20250827
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e7362f175e8a40fd8ea92353c7f4e197@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20250908
+DTEND;TZID=Europe/Amsterdam:20250909
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9339b3709e694c6985a5f4363951a299@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20250909
+DTEND;TZID=Europe/Amsterdam:20250910
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3461d172f7894009b7814f3da179c114@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Papier en Karton
+DESCRIPTION:Waar: \nBuitenzetten: Donderdag 21.00 tot vrijdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20250912
+DTEND;TZID=Europe/Amsterdam:20250913
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Papier en Karton wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f0900190a9e4da2aa03b286c533d25c@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20250922
+DTEND;TZID=Europe/Amsterdam:20250923
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:323d43167a00486f802291956970a7e0@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20250923
+DTEND;TZID=Europe/Amsterdam:20250924
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:82e7030c83be49f8bf4aa11bf15ea682@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251006
+DTEND;TZID=Europe/Amsterdam:20251007
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0f4169d74ad64277a038e8ba239754b7@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251007
+DTEND;TZID=Europe/Amsterdam:20251008
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:52ccd02dc20a4e4f90b7e46c0ead80d1@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Papier en Karton
+DESCRIPTION:Waar: \nBuitenzetten: Donderdag 21.00 tot vrijdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251010
+DTEND;TZID=Europe/Amsterdam:20251011
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Papier en Karton wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e5b13063eca04e178cfe51daaad9962a@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251020
+DTEND;TZID=Europe/Amsterdam:20251021
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:00c2ab6d06c5451297437c57994912d7@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251021
+DTEND;TZID=Europe/Amsterdam:20251022
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:08c8b929da374575b1a875d99e363021@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251103
+DTEND;TZID=Europe/Amsterdam:20251104
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25d01ba96a78419eaddea46af486749a@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251104
+DTEND;TZID=Europe/Amsterdam:20251105
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:60f9eaf8c016428686a96c2008259934@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Papier en Karton
+DESCRIPTION:Waar: \nBuitenzetten: Donderdag 21.00 tot vrijdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251107
+DTEND;TZID=Europe/Amsterdam:20251108
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Papier en Karton wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:728b089c2aec4ddcb45a3ece58ccec13@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251117
+DTEND;TZID=Europe/Amsterdam:20251118
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e649719664dc4395966c1de7f7cca725@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251118
+DTEND;TZID=Europe/Amsterdam:20251119
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2c1a4cd6ae8b4e65963d71228c758d9b@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251201
+DTEND;TZID=Europe/Amsterdam:20251202
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e5b22ba01c1c4bdaa74e14d8b431be1f@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251202
+DTEND;TZID=Europe/Amsterdam:20251203
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9c66f3e49aea457fbfab68444ec67d29@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Papier en Karton
+DESCRIPTION:Waar: \nBuitenzetten: Donderdag 21.00 tot vrijdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251205
+DTEND;TZID=Europe/Amsterdam:20251206
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Papier en Karton wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e54b265ac9d64bc0a7e7de62a91be691@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251215
+DTEND;TZID=Europe/Amsterdam:20251216
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:137ce06cd17e4def96c5ae2017b635b3@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251216
+DTEND;TZID=Europe/Amsterdam:20251217
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:964462bd65f74720908518b256013f00@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251229
+DTEND;TZID=Europe/Amsterdam:20251230
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0869e6b81d4c4e29bb0f4a0d038e7ef4@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20251230
+DTEND;TZID=Europe/Amsterdam:20251231
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:29d74c1e5d8043788770013336fc1f19@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260112
+DTEND;TZID=Europe/Amsterdam:20260113
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3106e9b172d9432c86eadfa2ecefdb2c@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260113
+DTEND;TZID=Europe/Amsterdam:20260114
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a39f373636c4d1b9122592229047066@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260126
+DTEND;TZID=Europe/Amsterdam:20260127
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f77869252d804907bb3e247c550661b2@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260127
+DTEND;TZID=Europe/Amsterdam:20260128
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a130b4ced7b349b1aee881dcdb0bd649@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260209
+DTEND;TZID=Europe/Amsterdam:20260210
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1f54fce26da475aba1484aae63f6dd5@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260210
+DTEND;TZID=Europe/Amsterdam:20260211
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e087fb1c5da6431e95412ee220e019d7@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Restafval
+DESCRIPTION:Waar: \nBuitenzetten: Zondag vanaf 21.00 tot maandag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260223
+DTEND;TZID=Europe/Amsterdam:20260224
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Restafval wordt morgen opgehaald.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c44fa86739c04742ad5b157b3faf96df@amsterdam-afval.nl
+DTSTAMP:20250825T010639Z
+SUMMARY:Groente, Fruit en Tuin Afval
+DESCRIPTION:Waar: \nBuitenzetten: Maandag vanaf 21.00 tot dinsdag 07.00 uur
+DTSTART;TZID=Europe/Amsterdam:20260224
+DTEND;TZID=Europe/Amsterdam:20260225
+BEGIN:VALARM
+TRIGGER:-PT6H
+DESCRIPTION:Herinnering: Groente, Fruit en Tuin Afval wordt morgen opgehaal
+ d.
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
